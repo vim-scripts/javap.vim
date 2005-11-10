@@ -1,0 +1,13 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1399
+
+This command allows you to run the JDK utility javap to show the methods in a class found in your classpath.  This function assumes that you have your classpath set up and that you have javap in your path.
+
+It's useful when I want to know a method or constructor signature and don't want to look up the javadocs for it.
+
+To use it just go to the ex prompt and ...
+
+:Javap fully_qualified_classname
+
+For example,
+
+:Javap java.lang.String;
